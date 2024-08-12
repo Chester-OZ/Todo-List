@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.submitButton {
+  display: flex;
+  padding: 4px;
+  margin: 0;
+  border: none;
+
+  background-color: inherit;
+  align-items: center;
+  position: absolute;
+  top: 28px;
+  right: 480px;
+}
+
+.editButton {
+  display: flex;
+  padding: 4px;
+  margin: 0;
+  border: none;
+
+  background-color: inherit;
+  align-items: center;
+  position: absolute;
+  top: 28px;
+  right: 450px;
+}
+
+.form input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background-color: inherit;
+  width: 320px;
+  padding: 10px 65px 10px 15px;
+  outline: none;
+}
